@@ -107,7 +107,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/add_to_cart"
         android:layout_marginRight="10dp"
-        android:text="Add to Cart"
+        android:text="Place Order"
         android:textStyle="bold"
         android:textColor="#FB9E56"
         android:background="@color/white"

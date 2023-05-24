@@ -128,7 +128,7 @@ public class OrderActivity extends AppCompatActivity {
                 .add(cartMap).addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
                     @Override
                     public void onComplete(@NonNull Task<DocumentReference> task) {
-                        Toast.makeText(OrderActivity.this,"Added To Cart", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(OrderActivity.this,"Rider is On Your Way", Toast.LENGTH_SHORT).show();
                         finish();
                     }
                 });
